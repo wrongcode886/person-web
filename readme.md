@@ -1,7 +1,5 @@
 <h1><a href='http://wangdongsheng.cc' target="_blank">个人网站</a></h1>
 
-![Image text](img/s2.jpg)
-
 <ul>
 <li>首页</li>
 <li>互联网大佬</li>
