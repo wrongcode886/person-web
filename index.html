@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link  href="img/title_icon.png" rel="shortcut icon" type="image/x-icon">
+	<title>侠客网-键盘侠改变未来的网站</title>
+	<meta name="keywords" content="侠客，侠客网，键盘侠，学习社区，王东省，精品网址">
+	<meta name="decription" content="侠客网，收录精品网址及各路键盘侠的娱乐基地">
+	<link rel="stylesheet" type="text/css" href="css/clear.css">
+	<link rel="stylesheet" type="text/css" href="css/index_style.css">
+	<link rel="stylesheet" type="text/css" href="css/move.css">
+	<script type="text/javascript" src="js/time.js"></script>
+	<script type="text/javascript" src="js/move.js"></script>
+</head>
+<body> 
+    <div class="header">
+    	<img src="img/head.gif" alt="憨豆动图">
+    	<h1>侠客网</h1>
+    	<span id="time"></span>
+    	<div class="login"><a href="javascript:loginOpen();">登录</a></div>
+    </div>
+
+ 
+	<div class="mask" id="maskID"></div>
+	<div class="container" id="containerID">
+		<div class="title">
+			<h2>登录通行证</h2>
+			<a class="closeBtn" href="javascript:loginClose();">X</a>
+		</div>
+		<div class="form">
+			<form action="#">
+				<input class="text" type="text" value="手机 / 邮箱 / 用户名">
+				<input class="pwd" type="text" value="密码">
+				<div class="forget"><a href="#">忘记密码</a></div>
+				<div class="submit"><a href="###">登录</a></div>
+				<div class="sign"><a href="#">立即注册</a></div>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var maskID=document.getElementById("maskID");
+		var containerID=document.getElementById("containerID");
+		function loginOpen(){
+			maskID.style.display="block";
+			containerID.style.display="block";	
+	
+		}
+		function loginClose(){
+			maskID.style.display="none";
+			containerID.style.display="none";
+		}
+	</script>
+
+
+	<div class="nav">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="demo.html">互联网大佬</li>
+			<li><a href="book.html">精品网站</a></li>
+			<li><a href="project.html" target="_blank">特效动画</a></li>
+			<li><a href="resume.html" target="_blank">我的简历</a></li>
+		</ul>
+	</div>
+
+	<div class="content">
+		<div class="content_left" id="container">
+			<div id="list" style="left: -320px;">
+				<img src="img/4.jpg" alt="4">
+				<img src="img/1.jpg" alt="1">
+				<img src="img/2.jpg" alt="2">
+				<img src="img/3.jpg" alt="3">
+				<img src="img/4.jpg" alt="4">
+				<img src="img/1.jpg" alt="1">
+			</div>
+			<div id="buttons">
+				<span index="1" class="on"></span>
+				<span index="2"></span>
+				<span index="3"></span>
+				<span index="4"></span>
+			</div>
+			<a href="javascript:;" class="arrow" id=prev>&lt;</a>
+			<a href="javascript:;" class="arrow" id=next>&gt;</a>
+		</div>
+
+		<div class="content_right">
+			<canvas id="chess" width="450px" height="450px"></canvas>		
+		</div>
+
+	</div>
+	<div class="copyright">
+		<ul>
+			<li>Made By: <a href="resume.html" target="_blank">windows</a></li>
+			<li>Email: windows.wds@aliyun.com</li>
+			<li>Wechat: 1483166698</li>
+			<li><a href="http://www.miibeian.gov.cn/" target="_blank">皖ICP备17024568号-1</a></li>
+		</ul>		
+	</div>
+
+<script type="text/javascript" src="js/chess.js"></script>
+
+	
+</body>
+</html>

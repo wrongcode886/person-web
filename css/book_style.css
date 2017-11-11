@@ -1,0 +1,147 @@
+@charset 'utf-8';
+/*clock样式*/
+body{
+	background: rgb(69,73,79);
+}
+.nav{
+	width: 1000px;
+	height: 50px;
+	margin: 10px auto;
+	background-color: #fff;
+}
+.nav a{
+	line-height: 50px;
+	padding-left: 20px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.nav a:link,.nav a:visited{
+	color: #000;
+	text-decoration:none; 
+}
+.nav a:hover,.nav a:active{
+	color: #000;
+	text-decoration:underline; 
+}
+
+.header{
+	width:1000px;
+	height: 180px;
+	margin: 10px auto;
+}
+
+/*手风琴*/
+.header .book_picture_bg{
+	float: left;
+	width: 710px;
+	height: 180px;
+	background: #fff;
+}
+.object{
+	width: 710px;
+	height: 180px;
+
+}
+#subject ul .big{
+	width: 250px;
+	height: 180px;
+}
+.object ul *{
+	transition: all ease-in-out 0.5s;
+}
+.object li{
+	width: 115px;
+	height: 180px;
+	float: left;
+	overflow: hidden;
+}
+.object ul li img{
+	border: 1px solid gray;
+	width:250px;
+	height: 180px;
+}
+
+
+/*时钟*/
+.header .time{
+	float: left;
+	width: 280px;
+	height: 180px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.header #clock{
+	border:1px solid #fff;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+/*bookMark*/
+.content{
+	width: 1000px;
+	height:250px;
+	padding-top: 20px;
+	margin: 10px auto;
+	background-color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+}
+.content dl{
+	padding-left: 100px;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.content dl .line{
+	position: absolute;
+	top: 0;
+	left: 200px;
+	width: 0;
+	height: 150px;
+	border-right:1px dotted gray;
+}
+
+
+.content dl dt{
+	font-size:20px;
+	font-weight:bold;
+	padding-bottom: 10px; 
+}
+.content dd a:link,
+.content dd a:visited{
+	color:rgba(146,131,131,0.82); 
+}
+.content dd a:hover,
+.content dd a:active{
+	color:red;
+}
+
+.pay{
+	padding-left:50%; 
+	width:1000px;
+	height:180px;
+	margin: 10px auto;
+	background-color: #fff;
+	box-sizing:border-box;
+}
+
+.pay dt{
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+ .pay dd img{
+	padding-top: 5px;
+	width: 100px;
+	height:100px;
+	float: left;
+}
+
+.pay dd img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+ 
