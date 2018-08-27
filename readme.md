@@ -1,5 +1,5 @@
 <h1><a href='http://wangdongsheng.cc' target="_blank">个人网站</a></h1>
-
+老版网站。。弃用
 <ul>
   
 <li>首页</li>
